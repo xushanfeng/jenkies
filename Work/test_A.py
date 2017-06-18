@@ -1,3 +1,4 @@
+#encoding:utf-8
 import pytest
 class Test_A:
 
@@ -5,9 +6,9 @@ class Test_A:
         pass
 
 
-    @pytest.mark.parametrize("a",[(111),(2222)])
-    def test_a(self, a):
-        print a
+    @pytest.mark.parametrize("msg,para",[("输入",1111),("输出",2222)])
+    def test_a(self, msg,para):
+        print msg+":",para
         assert 1 == 1
 
     def teardown(self):
