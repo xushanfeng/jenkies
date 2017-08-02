@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1501652360018,
+    "stop" : 1501652360040,
+    "duration" : 22
+  },
+  "testSuites" : [ {
+    "uid" : "968ffd490f5ecdb8",
+    "name" : "Work.test_A",
+    "title" : "Test A",
+    "time" : {
+      "start" : 1501652360018,
+      "stop" : 1501652360040,
+      "duration" : 22
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "dc8a2c2b15ea592f",
+      "name" : "Test_A.test_create_channel[1-2]",
+      "title" : "Test create channel [1-2]",
+      "time" : {
+        "start" : 1501652360018,
+        "stop" : 1501652360036,
+        "duration" : 18
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d35efcafdcbd7c14",
+      "name" : "Test_A.test_create_channel[2-3]",
+      "title" : "Test create channel [2-3]",
+      "time" : {
+        "start" : 1501652360039,
+        "stop" : 1501652360040,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

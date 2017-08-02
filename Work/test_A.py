@@ -12,6 +12,11 @@ class Test_A:
         allure.attach('描述', '这是一个注册登录的case')
         self.a(ss, sdfa)
 
+    @pytest.mark.parametrize("ss, sdfa", [(1, 2), (2, 3)])
+    def test_create_channel_1(self, ss, sdfa):
+        allure.attach('描述', '这是一个注册登录的case')
+        self.a(ss, sdfa)
+
     @allure.step(title="登录账号:{1},注册:{2}")
     # @allure.step(title="注册:{2}")
     def a(self, balck, test):
