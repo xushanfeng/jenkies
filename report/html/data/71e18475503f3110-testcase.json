@@ -1,0 +1,71 @@
+{
+  "uid" : "71e18475503f3110",
+  "name" : "Test_A.test_create_channel_1[2-3]",
+  "title" : "Test create channel 1 [2-3]",
+  "time" : {
+    "start" : 1501743648558,
+    "stop" : 1501743648559,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c48783cdf78a7b13",
+    "name" : "Work.test_A",
+    "title" : "Test A"
+  },
+  "steps" : [ {
+    "name" : "登录账号:2,注册:3",
+    "title" : "登录账号:2,注册:3",
+    "time" : {
+      "start" : 1501743648559,
+      "stop" : 1501743648559,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "描述",
+    "source" : "ce70b185-1ad1-42b6-b382-1b4b4a0c57f4-attachment.txt",
+    "type" : "text/plain",
+    "size" : 31,
+    "uid" : "27863c00c2608456"
+  }, {
+    "title" : "创建测试渠道：2",
+    "source" : "7b806a45-e872-4d7d-84af-961b1fa53d7c-attachment.png",
+    "type" : "image/png",
+    "size" : 7043,
+    "uid" : "a6391b5b2b16490e"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Work.test_A"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1575-MainThread"
+  } ],
+  "parameters" : [ ]
+}

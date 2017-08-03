@@ -1,0 +1,77 @@
+{
+  "uid" : "1cb2cde5a39598b8",
+  "name" : "Test_A.test_create_channel[1-2]",
+  "title" : "Test create channel [1-2]",
+  "time" : {
+    "start" : 1501742485106,
+    "stop" : 1501742485120,
+    "duration" : 14
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "http://my.tms.org/TESTCASE-1",
+    "url" : "http://my.tms.org/TESTCASE-1"
+  },
+  "suite" : {
+    "uid" : "d3efea7e2728bf6e",
+    "name" : "Work.test_A",
+    "title" : "Test A"
+  },
+  "steps" : [ {
+    "name" : "登录账号:1,注册:2",
+    "title" : "登录账号:1,注册:2",
+    "time" : {
+      "start" : 1501742485120,
+      "stop" : 1501742485120,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "描述",
+    "source" : "b1bdece8-38de-4468-a25c-3c19bf63b45d-attachment.txt",
+    "type" : "text/plain",
+    "size" : 31,
+    "uid" : "ad106403a313a2e7"
+  } ],
+  "issues" : [ {
+    "name" : "http://my.tms.org/ISSUE-1",
+    "url" : "http://my.tms.org/ISSUE-1"
+  } ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Work.test_A"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "thread",
+    "value" : "1447-MainThread"
+  }, {
+    "name" : "testId",
+    "value" : "http://my.tms.org/TESTCASE-1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "issue",
+    "value" : "http://my.tms.org/ISSUE-1"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ]
+}

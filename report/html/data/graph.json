@@ -1,22 +1,44 @@
 {
   "testCases" : [ {
-    "uid" : "dc8a2c2b15ea592f",
+    "uid" : "ec14eddaca3e2066",
     "name" : "Test_A.test_create_channel[1-2]",
     "title" : "Test create channel [1-2]",
     "time" : {
-      "start" : 1501652360018,
-      "stop" : 1501652360036,
-      "duration" : 18
+      "start" : 1501743648533,
+      "stop" : 1501743648546,
+      "duration" : 13
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "d35efcafdcbd7c14",
+    "uid" : "68a0910cf01bdd34",
     "name" : "Test_A.test_create_channel[2-3]",
     "title" : "Test create channel [2-3]",
     "time" : {
-      "start" : 1501652360039,
-      "stop" : 1501652360040,
+      "start" : 1501743648549,
+      "stop" : 1501743648551,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b8ba048e8743d41f",
+    "name" : "Test_A.test_create_channel_1[1-2]",
+    "title" : "Test create channel 1 [1-2]",
+    "time" : {
+      "start" : 1501743648552,
+      "stop" : 1501743648554,
+      "duration" : 2
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "71e18475503f3110",
+    "name" : "Test_A.test_create_channel_1[2-3]",
+    "title" : "Test create channel 1 [2-3]",
+    "time" : {
+      "start" : 1501743648558,
+      "stop" : 1501743648559,
       "duration" : 1
     },
     "severity" : "NORMAL",
