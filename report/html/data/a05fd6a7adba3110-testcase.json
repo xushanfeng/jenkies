@@ -1,0 +1,53 @@
+{
+  "uid" : "a05fd6a7adba3110",
+  "name" : "Test_A.test_error_case",
+  "title" : "Test error case",
+  "time" : {
+    "start" : 1501841725297,
+    "stop" : 1501841725318,
+    "duration" : 21
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert 1 == 2",
+    "stackTrace" : "self = <Work.test_A.Test_A instance at 0x10d0afb48>\n\n    def test_error_case(self):\n        allure.attach(\"描述\",\"this a error case!\")\n>       assert 1 == 2\nE       assert 1 == 2\n\nWork/test_A.py:32: AssertionError"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d3691b3fceaf5dd1",
+    "name" : "Work.test_A",
+    "title" : "Test A"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "描述",
+    "source" : "55a69070-58e4-4947-af11-426387bc1355-attachment.txt",
+    "type" : "text/plain",
+    "size" : 18,
+    "uid" : "5064d58a124f2971"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Work.test_A"
+  }, {
+    "name" : "host",
+    "value" : "bogon"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "5778-MainThread"
+  } ],
+  "parameters" : [ ]
+}

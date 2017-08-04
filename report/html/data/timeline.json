@@ -2,51 +2,62 @@
   "hosts" : [ {
     "title" : "bogon",
     "threads" : [ {
-      "title" : "1575-MainThread",
+      "title" : "5778-MainThread",
       "testCases" : [ {
-        "uid" : "ec14eddaca3e2066",
+        "uid" : "66801dca27d8a71",
         "name" : "Test_A.test_create_channel[1-2]",
         "title" : "Test create channel [1-2]",
         "time" : {
-          "start" : 1501743648533,
-          "stop" : 1501743648546,
-          "duration" : 13
+          "start" : 1501841725266,
+          "stop" : 1501841725283,
+          "duration" : 17
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "68a0910cf01bdd34",
+        "uid" : "b1edc5dcf0523d69",
         "name" : "Test_A.test_create_channel[2-3]",
         "title" : "Test create channel [2-3]",
         "time" : {
-          "start" : 1501743648549,
-          "stop" : 1501743648551,
-          "duration" : 2
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "b8ba048e8743d41f",
-        "name" : "Test_A.test_create_channel_1[1-2]",
-        "title" : "Test create channel 1 [1-2]",
-        "time" : {
-          "start" : 1501743648552,
-          "stop" : 1501743648554,
-          "duration" : 2
-        },
-        "severity" : "NORMAL",
-        "status" : "PASSED"
-      }, {
-        "uid" : "71e18475503f3110",
-        "name" : "Test_A.test_create_channel_1[2-3]",
-        "title" : "Test create channel 1 [2-3]",
-        "time" : {
-          "start" : 1501743648558,
-          "stop" : 1501743648559,
+          "start" : 1501841725286,
+          "stop" : 1501841725287,
           "duration" : 1
         },
         "severity" : "NORMAL",
         "status" : "PASSED"
+      }, {
+        "uid" : "de2bf3ab26552f1",
+        "name" : "Test_A.test_create_channel_1[1-2]",
+        "title" : "Test create channel 1 [1-2]",
+        "time" : {
+          "start" : 1501841725289,
+          "stop" : 1501841725291,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3a55249fd21f9c7d",
+        "name" : "Test_A.test_create_channel_1[2-3]",
+        "title" : "Test create channel 1 [2-3]",
+        "time" : {
+          "start" : 1501841725293,
+          "stop" : 1501841725294,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a05fd6a7adba3110",
+        "name" : "Test_A.test_error_case",
+        "title" : "Test error case",
+        "time" : {
+          "start" : 1501841725297,
+          "stop" : 1501841725318,
+          "duration" : 21
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
       } ]
     } ]
   } ]

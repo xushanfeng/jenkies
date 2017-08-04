@@ -2,17 +2,17 @@
   "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
   "data" : [ {
     "statistic" : {
-      "total" : 4,
+      "total" : 5,
       "passed" : 4,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0
     },
     "time" : {
-      "start" : 1501743648533,
-      "stop" : 1501743648559,
-      "duration" : 26
+      "start" : 1501841725266,
+      "stop" : 1501841725318,
+      "duration" : 52
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -20,9 +20,9 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 0,
-      "message" : "There are no defects!",
-      "status" : "PASSED"
+      "count" : 1,
+      "message" : "AssertionError: assert 1 == 2",
+      "status" : "FAILED"
     } ]
   }, {
     "name" : "xunit",
@@ -30,11 +30,11 @@
     "data" : [ {
       "title" : "Test A",
       "statistic" : {
-        "total" : 4,
+        "total" : 5,
         "passed" : 4,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     } ]
@@ -44,11 +44,11 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 4,
+        "total" : 5,
         "passed" : 4,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     } ]
