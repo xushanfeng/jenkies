@@ -33,7 +33,7 @@ class Test_A:
 
     def test_right_case(self):
         allure.attach("描述","this a right case!")
-        assert 1 == 2
+        assert 1 == 1
 
     def teardown(self):
         pass
