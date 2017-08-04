@@ -16,6 +16,7 @@ class Test_A:
         self.a(ss, sdfa)
 
     @pytest.mark.parametrize("ss, sdfa", [(1, 2), (2, 3)])
+    @pytest.allure.severity(pytest.allure.severity_level.MINOR)
     def test_create_channel_1(self, ss, sdfa):
         allure.attach('描述', '这是一个注册登录的case')
         f = open("Work/WechatIMG724.PNG",'r').read()
