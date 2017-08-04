@@ -27,5 +27,9 @@ class Test_A:
     def a(self, balck, test):
         return balck,test
 
+    def test_error_case(self):
+        allure.attach("描述","this a error case!")
+        assert 1 == 2
+
     def teardown(self):
         pass
