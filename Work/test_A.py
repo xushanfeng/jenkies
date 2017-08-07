@@ -28,6 +28,7 @@ class Test_A:
     def a(self, balck, test):
         return balck,test
 
+    @pytest.allure.severity(pytest.allure.severity_level.MINOR)
     def test_error_case(self):
         allure.attach("描述","this a error case!")
         assert 1 == 2
@@ -36,6 +37,14 @@ class Test_A:
     def test_right_case(self):
         allure.attach("描述","this a right case!")
         assert 1 == 1
+
+    @pytest.allure.severity(pytest.allure.severity_level.TRICIAL)
+    def test_trivial_case(self):
+        allure.attach("trivial","this is a trivial case!")
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    def test_block_case(self):
+        allure.attach("block", "this is a block case!")
 
     def teardown(self):
         pass
