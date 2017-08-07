@@ -38,7 +38,7 @@ class Test_A:
         allure.attach("描述","this a right case!")
         assert 1 == 1
 
-    @pytest.allure.severity(pytest.allure.severity_level.TRICIAL)
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
     def test_trivial_case(self):
         allure.attach("trivial","this is a trivial case!")
 
