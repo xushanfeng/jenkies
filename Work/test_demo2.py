@@ -85,7 +85,7 @@ class Test_Demo_2:
 
     @allure.feature("second feature")
     @allure.story('Story3')
-    def test_add_second_feature_b(self):
+    def test_add_second_feature_a(self):
         '''
         这仅仅是一个描述
         :return:
