@@ -64,8 +64,8 @@ class Test_Demo_2:
         '''
         allure.attach("新增描述", "这是一个新增的用例描述")
 
-    @allure.feature("first feature")
-    @allure.story('Story3')
+    @allure.feature("登录")
+    @allure.story('商户')
     def test_add_first_feature_a(self):
         '''
         这仅仅是一个描述
@@ -74,8 +74,8 @@ class Test_Demo_2:
         allure.attach("新增功能模块", "这是一个新增的功能模块")
 
 
-    @allure.feature("first feature")
-    @allure.story('Story4')
+    @allure.feature("登录")
+    @allure.story('渠道')
     def test_add_first_feature_b(self):
         '''
         这仅仅是一个描述
@@ -84,7 +84,7 @@ class Test_Demo_2:
         allure.attach("新增功能模块", "这是一个新增的功能模块")
 
     @allure.feature("second feature")
-    @allure.story('Story3')
+    @allure.story('瞎找')
     def test_add_second_feature_a(self):
         '''
         这仅仅是一个描述
@@ -94,7 +94,7 @@ class Test_Demo_2:
 
 
     @allure.feature("second feature")
-    @allure.story('Story4')
+    @allure.story('就试试')
     def test_add_second_feature_b(self):
         '''
         这仅仅是一个描述
