@@ -30,7 +30,7 @@ class Test_Demo:
         :return:
         '''
         allure.attach("新增附件", "这是一个新增的测试附件")
-        with open("WechatIMG724.PNG") as f:
+        with open("Work/WechatIMG724.PNG", 'r') as f:
             allure.attach("吃惊", f.read(), allure.attach_type.PNG )
 
     @pytest.allure.issue("http://www.baidu.com")
