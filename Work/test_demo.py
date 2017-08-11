@@ -64,3 +64,40 @@ class Test_Demo:
         '''
         allure.attach("新增描述", "这是一个新增的用例描述")
 
+    @allure.feature("first feature")
+    @allure.story('Story1')
+    def test_add_first_feature_a(self):
+        '''
+        这仅仅是一个描述
+        :return:
+        '''
+        allure.attach("新增功能模块", "这是一个新增的功能模块")
+
+
+    @allure.feature("first feature")
+    @allure.story('Story2')
+    def test_add_first_feature_b(self):
+        '''
+        这仅仅是一个描述
+        :return:
+        '''
+        allure.attach("新增功能模块", "这是一个新增的功能模块")
+
+    @allure.feature("second feature")
+    @allure.story('Story1')
+    def test_add_second_feature_b(self):
+        '''
+        这仅仅是一个描述
+        :return:
+        '''
+        allure.attach("新增功能模块", "这是一个新增的功能模块")
+
+
+    @allure.feature("second feature")
+    @allure.story('Story2')
+    def test_add_second_feature_b(self):
+        '''
+        这仅仅是一个描述
+        :return:
+        '''
+        allure.attach("新增功能模块", "这是一个新增的功能模块")
