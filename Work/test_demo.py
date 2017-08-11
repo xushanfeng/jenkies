@@ -27,11 +27,19 @@ class Test_Demo:
     def test_add_attach(self):
         '''
         增加附件到用例
-        :return:
+        支持类型：
+        HTML
+        JPG
+        PNG
+        JSON
+        OTHER
+        TEXTXML
         '''
         allure.attach("新增附件", "这是一个新增的测试附件")
-        with open("Work/WechatIMG724.PNG", 'r') as f:
-            allure.attach("吃惊", f.read(), allure.attach_type.PNG )
+        with open("Work/WechatIMG724.JPG", 'r') as f:
+            allure.attach("吃惊", f.read(), allure.attach_type.JPG )
+        with open("Work/TYPE.JSON", 'r') as f:
+            allure.attach("吃惊", f.read(), allure.attach_type.JSON )
 
     @pytest.allure.issue("http://www.baidu.com")
     def test_add_issue(self):
