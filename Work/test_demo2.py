@@ -5,6 +5,7 @@
 
 import pytest
 import allure
+from demo import sum_1
 
 class Test_Demo_2:
 
@@ -105,7 +106,8 @@ class Test_Demo_2:
     @allure.feature("测试和函数")
     def test_sum(self):
         allure.attach("测试和函数", "这是一个新增的核函数测试用例")
-        assert sum(3, 4) == 6
+        a = sum_1(3, 4)
+        assert a == 6
 
 
     def teardown(self):
