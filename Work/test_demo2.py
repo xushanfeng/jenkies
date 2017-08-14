@@ -106,3 +106,7 @@ class Test_Demo_2:
     def test_sum(self):
         allure.attach("测试和函数", "这是一个新增的核函数测试用例")
         assert sum(3, 4) == 6
+
+
+    def teardown(self):
+        pass
