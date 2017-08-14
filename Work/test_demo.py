@@ -5,6 +5,7 @@
 
 import pytest
 import allure
+from demo import sum
 
 class Test_Demo:
 
