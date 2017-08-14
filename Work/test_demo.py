@@ -39,7 +39,7 @@ class Test_Demo:
         with open("Work/WechatIMG724.JPG", 'r') as f:
             allure.attach("吃惊", f.read(), allure.attach_type.JPG )
         with open("Work/TYPE.JSON", 'r') as f:
-            allure.attach("吃惊", f.read(), allure.attach_type.JSON )
+            allure.attach("Json String", f.read(), allure.attach_type.JSON )
 
     @pytest.allure.issue("http://www.baidu.com")
     def test_add_issue(self):

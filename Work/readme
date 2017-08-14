@@ -1,0 +1,5 @@
+运行时参数设置：
+    --alluredir :文件夹下所有文件
+    --story: 运行指定story标签的case，多个story使用英文","隔开
+    --feature: 运行指定feature标签的case，多个feature使用英文","隔开
+    --allure_severities:运行指定级别的case，多个severities使用英文","隔开
