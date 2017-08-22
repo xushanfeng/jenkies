@@ -31,6 +31,7 @@ class Test_A:
     @pytest.allure.severity(pytest.allure.severity_level.MINOR)
     def test_error_case(self):
         allure.attach("描述", "this a error case!")
+        print 222
         assert 1 == 2
 
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
