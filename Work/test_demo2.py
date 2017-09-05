@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #encoding:utf-8
 '''
 此实例仅作allure示范使用
